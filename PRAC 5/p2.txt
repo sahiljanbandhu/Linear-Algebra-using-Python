@@ -1,0 +1,4 @@
+import numpy as np
+m=np.matrix([[4,5,6],[44,55,66],[74,85,96]])
+m.I
+print(m.I)

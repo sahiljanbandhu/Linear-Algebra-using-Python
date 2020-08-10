@@ -1,0 +1,5 @@
+import numpy as np
+def det(A):
+    return sum([(-1) ** i *A[i,0]* det(np.delete(np.delete(A,0,1),i,0)) for i in range (A.shape[0])]) if A.shape!=(1,1) else A[0,0]
+m=np.array([[4,5,6],[14,15,16],[24,25,26]])
+print(det(m))
