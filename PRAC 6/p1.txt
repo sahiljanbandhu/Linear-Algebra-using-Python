@@ -1,0 +1,7 @@
+a=int(input("enter 1st no:"))
+b=int(input("enter 2nd no:"))
+def gcd(a,b):
+    if a==0:
+        return b
+    return gcd(b%a,a)
+print("gcd of two numbers is",gcd(a,b))

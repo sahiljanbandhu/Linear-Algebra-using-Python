@@ -1,0 +1,14 @@
+
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+a1=int(input("enter a1:"))
+b1=int(input("enter b1:"))
+a2=int(input("enter a2:"))
+b2=int(input("enter b2:"))
+def gcd(a,b):
+    (a==a1==a2) & (b==b1==b2)
+    if a==0:
+        return b
+    return gcd(b%a,a)
+print("gcd of two number is:",gcd(a,b),gcd(a1,b1),gcd(a2,b2))
+
