@@ -1,0 +1,7 @@
+
+import matplotlib .pyplot as plt
+L=[-2+2j,-1+2j,0+2j,1+2j,2+2j,-1+4j,0+4j,1+4j]
+X=[X.real for X in L]
+Y=[X.imag for X in L]
+plt.scatter(X,Y,color='red')
+plt.show()

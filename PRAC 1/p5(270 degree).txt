@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+triangle=[[3,5],[6,4],[1,2]]
+coordinates_a = triangle[0]
+coordinates_b = triangle[1]
+coordinates_c = triangle[2]
+def rotate270ccw(coordinates):
+    print(coordinates)
+    print("star coordinates:")
+    old_x = coordinates[0]
+    old_y = coordinates[1]
+    new_x = old_y
+    new_y = old_x
+    print("End coordinates:")
+    print([new_x,new_y])
+    plt.scatter(old_x,old_y,color='red')
+    plt.show()
+    plt.scatter(new_x,new_y,color='blue')
+    plt.show()
+print("Let's rotate point A 270 degrees:")
+rotate270ccw(coordinates_a)
+print("Let's rotate point B 270 degrees:")
+rotate270ccw(coordinates_b)
+print("Let's rotate point C 270 degrees:")
+rotate270ccw(coordinates_c)
+print("==========")

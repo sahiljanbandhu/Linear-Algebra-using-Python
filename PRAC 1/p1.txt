@@ -1,0 +1,20 @@
+import math
+class complexcompute(object):
+    def __init__(self,realPart,imgPart):
+        self.realPart = realPart
+        self.imgPart = imgPart
+    def __add__(self,other):
+        r1 = self.realPart
+        i1 = self.imgPart
+        r2 = other.realPart
+        i2 = other.imgPart
+        resultR = r1+r2
+        resultI = i1+i2
+        result = complex(result,resultI)
+        return result
+c1=complex(2,3)
+c2=complex(5,4)
+print(c1+c2)
+c1=1+3j
+c1.conjugate()
+print(c1.conjugate())
