@@ -1,0 +1,5 @@
+size=int(input("enter the size of u vector as a n-list"))
+l1=[0]*size
+for i in range(size):
+    l1[i]=int(input("enter digit"))
+print(l1)
