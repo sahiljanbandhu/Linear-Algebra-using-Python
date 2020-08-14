@@ -17,7 +17,7 @@ Write a program which demonstrates the following:
 - Plotting a set of complex numbers
 - Creating a new plot by rotating the given number by a degree 90, 180, 270 degrees and also by scaling by a number a=1/2, a=1/3, a=2 etc.
  
-**Practical 2 : Aim---**
+**Practical 2 : Aim--**
 Write a program to do the following:
 
 - Enter an r by c matrix M (r and c being positive integers)
