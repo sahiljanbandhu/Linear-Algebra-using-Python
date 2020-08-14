@@ -7,7 +7,7 @@ To offer the learner the relevant linear algebra concepts through computer scien
 2. Understand the concepts through program implementation
 3. Instill a computational thinking while learning linear algebra
 
-**Note** : All **Output** are in doc file. In each prac folders. 
+**Note** : All **Output** are in **doc** file. In each prac folders. 
 ### Practicals:
 
 **Practical 1 : Aim--**
