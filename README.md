@@ -32,7 +32,7 @@ Write a program to do the following:
 - Enter a vector u as a n-list
 - Enter another vector v as a n-list
 - Find the vector au+bv for different values of a and b
-- Find the dot product of u and v 
+- Find the dot product of u and v
 
 **Practical 4 : Aim --**
 Write a program to do the following:
