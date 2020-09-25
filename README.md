@@ -1,6 +1,6 @@
 # Linear-Algebra-using-Python
 **Objectives:**
-To offer the learner the relevant linear algebra concepts through computer science applications .
+To offer the learner the relevant linear algebra concepts through computer science applications.
 
 **Expected Learning Outcomes:**
 1. Appreciate the relevance of linear algebra in the field of computer science.
